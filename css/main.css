@@ -1,11 +1,8 @@
 :root {
-    --text-color: ;
-    --font-family: ;
-    --body-bg-color: ;
+    --text-color: #151516;
+    --font-family: 'Calibri', sans-serif;
+    --main-goldenrod: #CD3B31;
 }
-
-/* FONTS */
-
 
 html {
     height: 100%;
@@ -28,12 +25,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: var(--body-bg-color);
+    background-color: #fff;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 17px;
     color: var(--text-color);
 }
 
@@ -49,7 +46,7 @@ a {
 
 .container {
     width: 100%;
-    max-width: px;
+    max-width: 1800px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
